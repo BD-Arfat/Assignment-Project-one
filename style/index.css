@@ -189,3 +189,72 @@
 .online-video {
   margin-top: 48px;
 }
+/* current target styles */
+.current-target-container {
+  width: 1200px;
+  margin: 182px auto;
+}
+.current-target-content {
+  text-align: center;
+}
+.current-target-contenth1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.current-target-content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.current-target-items {
+  display: flex;
+  gap: 20px;
+}
+.item-one {
+  background-color: rgba(255, 76, 30, 0.05);
+  border-radius: 10px;
+  padding: 30px;
+}
+.item-one h1 {
+  margin-top: 18px;
+}
+.item-one p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.item-two {
+  background-color: rgba(0, 76, 232, 0.05);
+  border-radius: 10px;
+  padding: 30px;
+}
+.item-two h1 {
+  margin-top: 18px;
+}
+.item-two p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.item-three {
+  background-color: rgba(255, 223, 0, 0.05);
+  border-radius: 10px;
+  padding: 30px;
+}
+.item-three h1 {
+  margin-top: 18px;
+}
+.item-three p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
