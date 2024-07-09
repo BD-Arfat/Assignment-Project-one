@@ -159,3 +159,33 @@
   margin-top: 22px;
   background-color: white;
 }
+
+/* My Inspiration */
+.inspiration-container {
+  width: 1200px;
+  margin: 88px auto;
+}
+.inspiration-content {
+  text-align: center;
+}
+.inspiration-content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.banner-content {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.online-video {
+  margin-top: 48px;
+}
