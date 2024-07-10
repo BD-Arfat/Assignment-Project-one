@@ -8,7 +8,7 @@
 
 /* nav styles */
 .nav-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 10px auto;
 }
 .nav-content {
@@ -90,7 +90,7 @@
 /* Why Web Development?? */
 .web-development-container {
   height: 1300px;
-  width: 1200px;
+  max-width: 1200px;
   margin: 74px auto;
   background-color: rgba(13, 19, 33, 0.02);
 }
@@ -106,7 +106,7 @@
 }
 .web-development-content p {
   color: rgb(13, 19, 33);
-  width: 852px;
+  max-width: 852px;
   margin: 24px auto;
   font-size: 16px;
   font-weight: 400;
@@ -127,7 +127,7 @@
   background-color: rgb(255, 255, 255);
 }
 .web-development-item-description {
-  width: 477px;
+  max-width: 477px;
 }
 .web-development-item-description h1 {
   color: rgba(13, 19, 33, 0.7);
@@ -162,7 +162,7 @@
 
 /* My Inspiration */
 .inspiration-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 88px auto;
 }
 .inspiration-content {
@@ -191,7 +191,7 @@
 }
 /* current target styles */
 .current-target-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 182px auto;
 }
 .current-target-content {
@@ -262,7 +262,7 @@
 /* next-target styles */
 
 .next-target-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0px auto;
 }
 .next-target-content {
@@ -321,7 +321,7 @@
 
 /* support styles */
 .support-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 120px auto;
   height: 313px;
   background-image: url("../assets/handshake.jpg");
@@ -330,6 +330,7 @@
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
+  border-radius: 13px;
 }
 .support-content {
   display: flex;
@@ -357,7 +358,7 @@
   text-align: center;
 }
 .input {
-  width: 348px;
+  max-width: 348px;
   padding: 19px 20px;
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15);
@@ -365,8 +366,29 @@
   background: rgb(255, 255, 255);
 }
 .input-button {
-  width: 120px;
+  max-width: 120px;
   padding: 17px 20px;
   border-radius: 8px;
   background: rgb(255, 255, 255);
+}
+
+/* footer styles */
+.footer-container {
+  background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+.footer-content p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
