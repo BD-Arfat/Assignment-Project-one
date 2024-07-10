@@ -147,6 +147,9 @@
   text-align: left;
   opacity: 0.7;
 }
+.web-development-item-description a {
+  text-decoration: none;
+}
 .web-development-item-description button {
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
@@ -158,6 +161,7 @@
   padding: 12px 20px 12px 20px;
   margin-top: 22px;
   background-color: white;
+  cursor: pointer;
 }
 
 /* My Inspiration */
